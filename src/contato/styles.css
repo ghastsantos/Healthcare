@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    zoom: 0.97;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    color: #41B883;
+    background-color: rgb(238, 237, 237);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    gap: 150px;
+    padding-inline: 60px;
+    padding-block: 8px;
+    margin-top: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.lista-elemento-link{
+    text-decoration: none;
+    text-decoration: none;
+    color: #292F33;
+    font-weight: 500;
+    font-size: 23px;
+}
+.lista-elemento-link:hover, .paginaAtual{
+    color:#41B883
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.container h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+}
+
+.container p {
+    font-family: "Blinker", sans-serif;
+    color: #292F33;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#upforms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#upforms input {
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#mensagem {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+#mensagem input {
+    width: 900px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container button {
+    width: 250px;
+    height: 50px;
+    background-color: #41B883;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Blinker", sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 36%;
+}

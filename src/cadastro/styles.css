@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    zoom: 0.97;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(238, 237, 237);
+    color: #41B883;
+}
+/*inicio do header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    gap: 150px;
+    padding-inline: 60px;
+    padding-block: 8px;
+    margin-top: 8px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+.lista-elemento-link{
+    text-decoration: none;
+    text-decoration: none;
+    color: #292F33;
+    font-weight: 500;
+    font-size: 23px;
+}
+.lista-elemento-link:hover, .paginaAtual{
+    color:#41B883
+}
+/*fim do header*/
+
+/*incio container*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.titulo{
+    font-size: 80px;
+    font-weight: 400;
+    color: #41B883;
+}
+.subtitulo{
+    position: relative;
+    top: -15px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #292F33;
+    font-family: "Blinker", sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px
+}
+.dado{
+    width: 340px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-family: "Blinker", sans-serif;
+    padding: 5px;
+}
+.campoVazio{
+    color: red;
+    font-family: "Blinker", sans-serif;
+    font-size: 10px;
+}
+.dadoSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ECF8C;
+    color: white;
+    width: 355px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-family: "Blinker", sans-serif;
+    text-decoration: none;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Blinker", sans-serif; 
+    gap: 5px;
+}
+.entrar{
+    font-family: "Blinker", sans-serif; 
+}
+.submit p{
+    font-family: "Blinker", sans-serif; 
+    font-size: 15px;
+}
+.entrar:hover{
+    background-color: #1DBA77;
+}
+.entrar:active{
+    background-color: #199e65;
+}
+
+/*final container*/
+

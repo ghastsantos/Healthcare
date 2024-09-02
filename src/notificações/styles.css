@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    zoom: 0.97;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(238, 237, 237); background-color: rgb(238, 237, 237);
+    color: #41B883;
+}
+/*inicio do header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    gap: 150px;
+    padding-inline: 60px;
+    padding-block: 8px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.lista-elemento-link{
+    text-decoration: none;
+    text-decoration: none;
+    color: #292F33;
+    font-weight: 500;
+    font-size: 23px;
+}
+.lista-elemento-link:hover, .paginaAtual{
+    color:#41B883
+}
+
+/*fim do header*/
+/*inicio container*/
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 15px;
+    
+
+}
+.título{
+    font-size: 40px;
+    font-weight: 400;
+    color: #41B883;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.exercicio h2{
+    font-family: "Blinker", sans-serif;
+    font-size: 20px;
+    color: #292F33;
+    width: 80vw;
+}
+.blocos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.blocoExercicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 900px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #292F33;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #c1c1c1;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.blocoExercicio-conteudo-propriedade {
+    color: #292F33;
+}
