@@ -3,36 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil - HealthCare</title>
-    <!-- Caminho para o CSS específico da página de perfil -->
-    <link rel="stylesheet" href="/perfil/styles.css">
+    <title>HealthCare</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <!-- Pré-conexão para fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="header">
         <div class="logo">
-            <!-- Caminho para a imagem do logo -->
-            <img src="/images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logo">
             <p>HealthCare</p>
         </div>
         <nav>
             <ul class="lista">
-                <li><a href="/index.html" class="lista-elemento-link">Início</a></li>
-                <li><a href="/perfil/index.html" class="paginaAtual lista-elemento-link">Perfil</a></li>
-                <li><a href="/imc/index.html" class="lista-elemento-link">IMC</a></li>
-                <li><a href="/exercicios/index.html" class="lista-elemento-link">Exercícios</a></li>
-                <li><a href="/alimentacao/index.html" class="lista-elemento-link">Dieta</a></li>
-                <li><a href="/medicos-na-regiao/index.html" class="lista-elemento-link">Médicos da Região</a></li>
-                <li><a href="/notificacoes/index.html" class="lista-elemento-link">Notificações</a></li>
-                <li><a href="/contato/index.html" class="lista-elemento-link">Contato</a></li>
+                <li><a href="index.html"  class="lista-elemento-link">Início</a></li>
+                <li><a href="login/index.html" class="paginaAtual lista-elemento-link">Perfil</a></li>
+                <li><a href="imc/index.html" class="lista-elemento-link">IMC</a></li>
+                <li><a href="exercicios/index.html" class="lista-elemento-link">Exercícios</a></li>
+                <li><a href="alimentacao/index.html" class="lista-elemento-link">Dieta</a></li>
+                <li><a href="médicos na região/index.html" class="lista-elemento-link">Médicos da Região</a></li>
+                <li><a href="notificações/index.html" class="lista-elemento-link">Notificações</a></li>
+                <li><a href="contato/index.html" class="lista-elemento-link">Contato</a></li>
             </ul>
         </nav>
     </section>
-    <!-- Conteúdo da página de perfil -->
-</body>
-</html>
+    <section class="container">
+        <div id="profile">
+            <img src="images/avatar.png" alt="Foto de Gastão" />
+            <p>Gastão Santos</p>
+          </div>
+            <div id="info">
+                <table id="tabela">
+                    <tr>
+                        <td>Idade:17 anos</td>
+                        <td>Altura:170cm</td>
+                        <td>Peso:64kg</td>
+                        <td>IMC:22.15</td>
+                    </tr>
+                    <tr id="restrições">
+                        <td>Restrições físicas: Nenhuma</td>
+                        <td>Restrições alimentares: Nenhuma</td>                       
+                    </tr>
+                </table>
+            </div>
+    </section>
+    <section class="caixa-exercicios">
+        <div class="exercicio">
+            <h2>Exercícios diários</h2>
+            <div class="blocos">
+                <div class="blocoExercicio">
+                    <div class="blocoExercicio-left">
+                        <div class="blocoExercicio-gif">
+                            <img src="" alt="gif">
+                        </div>
+                        <div class="blocoExercicio-conteudo">
+                            <div class="blocoExercicio-conteudo-titulo">
+                                <h3>Exercício</h3>
+                            </div>
+                            <div class="blocoExercicio-conteudo-propriedade">
+                                <p class="propriedade">Série: </p>
+                                <p class="propriedade">Tempo: </p>
+                                <p class="propriedade">Repetição: </p>
+                                <p class="propriedade">Carga: </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocoExercicio-interruptor">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="exercicio">
+                <div class="blocos">
+                    <div class="blocoExercicio">
+                        <div class="blocoExercicio-left">
+                            <div class="blocoExercicio-gif">
+                                <img src="" alt="gif">
+                            </div>
+                            <div class="blocoExercicio-conteudo">
+                                <div class="blocoExercicio-conteudo-titulo">
+                                    <h3>Exercício</h3>
+                                </div>
+                                <div class="blocoExercicio-conteudo-propriedade">
+                                    <p class="propriedade">Série: </p>
+                                    <p class="propriedade">Tempo: </p>
+                                    <p class="propriedade">Repetição: </p>
+                                    <p class="propriedade">Carga: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoExercicio-interruptor">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exercicio">
+                <div class="blocos">
+                    <div class="blocoExercicio">
+                        <div class="blocoExercicio-left">
+                            <div class="blocoExercicio-gif">
+                                <img src="" alt="gif">
+                            </div>
+                            <div class="blocoExercicio-conteudo">
+                                <div class="blocoExercicio-conteudo-titulo">
+                                    <h3>Exercício</h3>
+                                </div>
+                                <div class="blocoExercicio-conteudo-propriedade">
+                                    <p class="propriedade">Série: </p>
+                                    <p class="propriedade">Tempo: </p>
+                                    <p class="propriedade">Repetição: </p>
+                                    <p class="propriedade">Carga: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoExercicio-interruptor">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exercicio">
+                <div class="blocos">
+                    <div class="blocoExercicio">
+                        <div class="blocoExercicio-left">
+                            <div class="blocoExercicio-gif">
+                                <img src="" alt="gif">
+                            </div>
+                            <div class="blocoExercicio-conteudo">
+                                <div class="blocoExercicio-conteudo-titulo">
+                                    <h3>Exercício</h3>
+                                </div>
+                                <div class="blocoExercicio-conteudo-propriedade">
+                                    <p class="propriedade">Série: </p>
+                                    <p class="propriedade">Tempo: </p>
+                                    <p class="propriedade">Repetição: </p>
+                                    <p class="propriedade">Carga: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoExercicio-interruptor">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exercicio">
+                <div class="blocos">
+                    <div class="blocoExercicio">
+                        <div class="blocoExercicio-left">
+                            <div class="blocoExercicio-gif">
+                                <img src="" alt="gif">
+                            </div>
+                            <div class="blocoExercicio-conteudo">
+                                <div class="blocoExercicio-conteudo-titulo">
+                                    <h3>Exercício</h3>
+                                </div>
+                                <div class="blocoExercicio-conteudo-propriedade">
+                                    <p class="propriedade">Série: </p>
+                                    <p class="propriedade">Tempo: </p>
+                                    <p class="propriedade">Repetição: </p>
+                                    <p class="propriedade">Carga: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoExercicio-interruptor">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="exercicio">
+                <div class="blocos">
+                    <div class="blocoExercicio">
+                        <div class="blocoExercicio-left">
+                            <div class="blocoExercicio-gif">
+                                <img src="" alt="gif">
+                            </div>
+                            <div class="blocoExercicio-conteudo">
+                                <div class="blocoExercicio-conteudo-titulo">
+                                    <h3>Exercício</h3>
+                                </div>
+                                <div class="blocoExercicio-conteudo-propriedade">
+                                    <p class="propriedade">Série: </p>
+                                    <p class="propriedade">Tempo: </p>
+                                    <p class="propriedade">Repetição: </p>
+                                    <p class="propriedade">Carga: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoExercicio-interruptor">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="caixa-gráfico" style="margin-left: 200px;">
+        <div id="gráfico">
+            <h2>Sua evolução</h2>
+           <img src="images/pngtree-two-math-axis-empty-graphic-for-yours-usage-picture-image_8298467.png" alt="Gráfico"  style ="height: 500px; width: 500px;" />
+          </div>
+    </section>
